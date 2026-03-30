@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "genre": "Adventure",
+    "year": 1605,
+    "copies_sold": "500 million"
+  },
+  {
+    "id": 2,
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "genre": "Historical Fiction",
+    "year": 1859,
+    "copies_sold": "200 million"
+  },
+  {
+    "id": 3,
+    "title": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1954,
+    "copies_sold": "150 million"
+  },
+  {
+    "id": 4,
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Fable",
+    "year": 1943,
+    "copies_sold": "140 million"
+  },
+  {
+    "id": 5,
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "year": 1997,
+    "copies_sold": "120 million"
+  },
+  {
+    "id": 6,
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "genre": "Mystery",
+    "year": 1939,
+    "copies_sold": "100 million"
+  },
+  {
+    "id": 7,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "year": 1937,
+    "copies_sold": "100 million"
+  },
+  {
+    "id": 8,
+    "title": "Dream of the Red Chamber",
+    "author": "Cao Xueqin",
+    "genre": "Family Saga",
+    "year": 1791,
+    "copies_sold": "100 million"
+  },
+  {
+    "id": 9,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Coming-of-age",
+    "year": 1951,
+    "copies_sold": "65 million"
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Quest / Adventure",
+    "year": 1988,
+    "copies_sold": "65 million"
+  }
+]
