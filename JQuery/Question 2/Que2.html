@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Enrollment</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="./Que2.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Student Registration</h2>
+      <input type="text" id="studentName" placeholder="Enter Student Name" />
+      <input type="text" id="studentCourse" placeholder="Enter Course" />
+      <button id="addStudent">Add to Table</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Course</th>
+        </tr>
+      </thead>
+      <tbody id="studentTableBody"></tbody>
+    </table>
+
+    <script>
+      $(document).ready(function () {
+        $("#addStudent").click(function () {
+          // Get values from input fields
+          const name = $("#studentName").val();
+          const course = $("#studentCourse").val();
+
+          // Basic validation
+          if (name === "" || course === "") {
+            alert("Please fill in both fields!");
+            return;
+          }
+
+          // Create a new table row and append it to the tbody
+          const newRow = `<tr>
+                                    <td>${name}</td>
+                                    <td>${course}</td>
+                                </tr>`;
+
+          $("#studentTableBody").append(newRow);
+
+          // Clear inputs for the next entry
+          $("#studentName").val("");
+          $("#studentCourse").val("");
+        });
+      });
+    </script>
+  </body>
+</html>
